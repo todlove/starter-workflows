@@ -2,7 +2,7 @@ name: Greetings
 
 on: [pull_request, issues]
 
-jobs:
+jobs:starter-workflows/automation/greetings.yml
   greeting:
     runs-on: ubuntu-latest
     permissions:
